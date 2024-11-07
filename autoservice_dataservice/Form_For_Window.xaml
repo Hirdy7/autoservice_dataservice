@@ -1,0 +1,35 @@
+﻿<Window x:Class="autoservice_dataservice.Form_For_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:autoservice_dataservice"
+        mc:Ignorable="d"
+        Title="Form_For_Window" Height="450" Width="800">
+    <WrapPanel Orientation="Vertical" HorizontalAlignment="Center">
+        <TextBlock Text="ClientID" Margin="10,5,30,0"></TextBlock>
+        <TextBox x:Name="ClientID"  HorizontalAlignment="Left" Height="23"  Margin ="10,5,0,10 " TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"></TextBox>
+
+        <TextBlock Text="FirstName" Margin="10,5,30,0"></TextBlock>
+        <TextBox x:Name="FirstName"  HorizontalAlignment="Left" Height="23"  Margin ="10,5,0,10 " TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"></TextBox>
+
+        <TextBlock Text="LastName" Margin="10,5,30,0"></TextBlock>
+        <TextBox x:Name="LastName"  HorizontalAlignment="Left" Height="23"  Margin ="10,5,0,10 " TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"></TextBox>
+
+        <TextBlock Text="Email" Margin="10,5,30,0"></TextBlock>
+        <TextBox x:Name="Email"  HorizontalAlignment="Left" Height="23"  Margin ="10,5,0,10 " TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"></TextBox>
+
+        <TextBlock Text="Phone" Margin="10,5,30,0"></TextBlock>
+        <TextBox x:Name="Phone"  HorizontalAlignment="Left" Height="23"  Margin ="10,5,0,10 " TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"></TextBox>
+
+        <TextBlock Text="Address" Margin="10,5,30,0"></TextBlock>
+        <TextBox x:Name="Address"  HorizontalAlignment="Left" Height="23"  Margin ="10,5,0,10 " TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"></TextBox>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="ADD" Margin="10,0,10,0" Click="Button_Click" Width="120"></Button>
+            
+            
+        </StackPanel>
+        
+        
+    </WrapPanel>
+</Window>

@@ -1,0 +1,9 @@
+﻿<Application x:Class="autoservice_dataservice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:autoservice_dataservice"
+             StartupUri="Login_win.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="autoservice_dataservice.Filter_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:autoservice_dataservice"
+        mc:Ignorable="d"
+        Title="Filter_Window" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid Name="Dg_Vehicles" HorizontalAlignment="Left" Height="202" Margin="193,99,0,0" VerticalAlignment="Top" Width="422"></DataGrid>
+        <TextBox Name="Tb_Year" HorizontalAlignment="Left" Height="23" Margin="495,49,0,0" VerticalAlignment="Top" Text="" Width="120" TextChanged="TextBox_TextChanged"></TextBox>
+        <ComboBox Name="Cb_Vehicles" 
+                  DisplayMemberPath="Year" 
+                  SelectedValuePath="VehicleID" 
+                  SelectionChanged="Cb_Vehicles_SelectionChanged"
+                  Height="23" Margin="193,49,487,0" Width="120" VerticalAlignment="Top"></ComboBox>
+        <Button Content="Report" HorizontalAlignment="Left" Margin="540,337,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Report"></Button>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="328,49,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Cancel"></Button>
+    </Grid>
+</Window>
